@@ -1,5 +1,5 @@
 {
-  "name": "my-static-site",
+  "name": "google-oauth-verification",
   "compatibility_date": "2025-01-01", // Use the current date
   "assets": {
     "directory": "./",
