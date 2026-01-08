@@ -3,7 +3,7 @@
   "compatibility_date": "2025-01-01", // Use the current date
   "assets": {
     "directory": "./",
-    "not_found_handling": "So Sowwy" // Optional: for SPAs/custom 404s
+    "not_found_handling": "single-page-application" // Optional: for SPAs/custom 404s
   },
   // Optional: Add a build command if your site requires one (e.g., Hugo, Astro)
   "build": { 
