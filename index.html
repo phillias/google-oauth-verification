@@ -2,3 +2,29 @@
 <h1 style="color: #5e9ca0;">rsync.phillias.us is here</h1>
 <h3><a href="https://rclone.phillias.us/privacy.html">Privacy</a></h3>
 <h3><a href="https://rclone.phillias.us/terms.html">Terms and Conditions</a></h3>
+
+Rclone provides client-side encryption. This ensures files are encrypted locally before being sent to providers like Google Drive or Dropbox, preventing the provider from reading your private data.
+        </li>
+        <li>
+            <strong>Efficient Backups:</strong> Users can create automated, one-way backups using the <code>copy</code> or <code>sync</code> commands. Unlike standard sync apps, Rclone can be configured to never delete files at the destination, protecting against accidental local deletions.
+        </li>
+        <li>
+            <strong>Virtual Disk Mounting:</strong> Rclone can "mount" cloud storage as a local network drive. This allows you to browse and open cloud-hosted photos or documents in local applications without taking up physical space on your hard drive.
+        </li>
+        <li>
+            <strong>Media Streaming:</strong> It is widely used by home media enthusiasts to link cloud libraries to servers like <strong>Plex, Emby, or Jellyfin</strong>. This enables streaming large 4K movie collections directly from the cloud.
+        </li>
+        <li>
+            <strong>Cloud-to-Cloud Migration:</strong> If you are switching providers (e.g., from OneDrive to Proton Drive), Rclone can transfer files directly between them, often using server-side transfers to save your local bandwidth.
+        </li>
+    </ul>
+
+    <h2>Key Benefits for Individuals</h2>
+    <ul>
+        <li><strong>Low Resource Usage:</strong> It consumes significantly less RAM than running several official cloud apps simultaneously.</li>
+        <li><strong>Data Integrity:</strong> Every transfer is verified using MD5 or SHA1 hashes to ensure files aren't corrupted during the process.</li>
+        <li><strong>Resumable Transfers:</strong> If your home internet drops, Rclone can resume large uploads from the last successful file.</li>
+        <li><strong>De-duplication:</strong> A built-in <code>dedupe</code> command helps find and remove identical files scattered across your accounts to save on storage costs.</li>
+    </ul>
+
+    <p>
