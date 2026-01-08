@@ -1,5 +1,5 @@
 {
-  "name": "google-oauth-verification",
+  "name": "phillias-rsync",
   "compatibility_date": "2025-01-01", // Use the current date
   "assets": {
     "directory": "./",
